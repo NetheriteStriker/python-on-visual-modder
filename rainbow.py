@@ -1,0 +1,11 @@
+def rainbow():
+  vm.setDirection(Compass.SAME_AS_PLAYER)
+  vm.setInclination(90)
+  vm.createArc(50, 50, 180, True, Block.RED_STAINED_GLASS_PANE)
+  vm.createArc(48, 48, 180, True, Block.ORANGE_STAINED_GLASS_PANE)
+  vm.createArc(46, 46, 180, True, Block.YELLOW_STAINED_GLASS_PANE)
+  vm.createArc(44, 44, 180, True, Block.GREEN_STAINED_GLASS_PANE)
+  vm.createArc(42, 42, 180, True, Block.LIGHT_BLUE_STAINED_GLASS_PANE)
+  vm.createArc(40, 40, 180, True, Block.BLUE_STAINED_GLASS_PANE)
+  vm.createArc(38, 38, 180, True, Block.PURPLE_STAINED_GLASS_PANE)
+  vm.createArc(36, 36, 180, True, Block.AIR)
